@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="7e08a635-facc-45a2-bec4-02feac3fab01" name="object" linkedPackageId="5bdec93a-5e03-4eba-8e25-683eb05a9693" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="66c1f873-49b1-4565-a437-34f580d51c4b">
+      <profileInstance Id="d212017d-eb11-4674-9c41-4010e707199a" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="e7eb9ae3-def9-43e7-98c8-381461ed709a">
+      <profileInstance Id="c1b13c65-c3de-441e-8144-676849dacc2e" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <Interface Id="a45ca3c9-5f71-4346-9e13-8370cdd2ae81" name="Object" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="429cccaa-f401-400b-91f1-429bd6b61690" />
+        <ownedAttributes>
+          <property Id="934951e4-196e-4d72-9df7-270c90b8c0d7" name="rotation" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="c838379e-59f3-4fdd-8d54-4afa500c6f0f" />
+          </property>
+          <property Id="b296cb02-60c2-44f4-ada8-0963cfcaeb44" name="location" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="da67782b-2105-4d94-a18e-9aede123f93b" />
+          </property>
+          <property Id="2c7cd07f-0f32-4b8e-a702-91e9a0c16b59" name="size" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="c7428e22-4bb7-452b-a592-f536b5258cd9" />
+          </property>
+          <property Id="32a0fc82-9f54-4c89-a61f-745579ce4c7d" name="model" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="2c989656-5d01-4531-b744-8bf2ec7cb5a7" />
+          </property>
+        </ownedAttributes>
+      </Interface>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <Interface Id="041252c4-e0e6-4136-b631-8ab1bebb6b0a" name="Movable" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ca818e04-e27b-4d6f-a825-5d01c900362e" />
+        <generalsInternal>
+          <generalization Id="8c8b7d18-346d-4a42-92cd-e42cbd53da57" isSubstitutable="false">
+            <interfaceMoniker Id="a45ca3c9-5f71-4346-9e13-8370cdd2ae81" LastKnownName="Object" />
+            <elementDefinition Id="018954c7-99d4-4bf2-aac4-e257a9471491" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributes>
+          <property Id="759e92d9-f26d-464d-8a50-d5aa885f26a2" name="weight" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="481fb623-928e-4e44-aab0-fa251fd6721b" />
+          </property>
+          <property Id="061815fc-e832-4880-8bc7-ef14086719ac" name="speed" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="1424cf54-9536-4638-b4fd-850ed9d532a9" />
+          </property>
+        </ownedAttributes>
+      </Interface>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <Interface Id="56110f22-2b91-4f94-898e-b5ef4deba028" name="Imovable" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="6b29b975-3b9d-4d1f-b6b2-13575a3b90b1" />
+        <generalsInternal>
+          <generalization Id="442ae31a-0963-4ef9-81d3-1881f93cca54" isSubstitutable="false">
+            <interfaceMoniker Id="a45ca3c9-5f71-4346-9e13-8370cdd2ae81" LastKnownName="Object" />
+            <elementDefinition Id="aaab74f2-c566-4f0d-83fb-93c3ecd72b57" />
+          </generalization>
+        </generalsInternal>
+      </Interface>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="405fabca-0735-4b7b-aec7-b3405c6d013a" name="Car" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="53ec5e5a-3ea1-4a67-a65b-df055e14ec1a" />
+        <suppliersInternal>
+          <interfaceRealization Id="9eac0bbb-e362-4e57-a11f-bc5b68c96664">
+            <interfaceMoniker Id="041252c4-e0e6-4136-b631-8ab1bebb6b0a" LastKnownName="Movable" />
+            <elementDefinition Id="27cd13df-2043-4a4c-af83-159d210bf455" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <property Id="d76b433b-96d9-4407-83d5-0258519cf779" name="control" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="52f2d25e-10f5-448b-aad7-8847e3e8cd8d" />
+          </property>
+          <property Id="190c8b44-2667-4d50-a923-c0a5624e9dad" name="atributes of car" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="df218244-f6b5-465d-b85d-64535bbe8dc7" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="573c3a1d-1679-4c02-9d98-e4f2af312b8b" name="CityTile" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="d82ffa5f-c290-47f7-b971-92b2af679f8e" />
+        <suppliersInternal>
+          <interfaceRealization Id="50e8012d-d7b8-4412-bb5e-8a3097cde840">
+            <interfaceMoniker Id="56110f22-2b91-4f94-898e-b5ef4deba028" LastKnownName="Imovable" />
+            <elementDefinition Id="1c2ba55b-2330-43bf-abef-e5689b454a6d" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <property Id="8198cf18-bd25-401f-8b4f-39171ad2c3bf" name="grafy cest" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="5a5608c0-d05b-4c9e-a5f0-4b4800882ae4" />
+          </property>
+          <property Id="d2f36bd8-e063-4c8d-9642-2abf616a1e8e" name="umisteni objektu" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="073829fd-54cf-42bd-bb96-1e9ed786d900" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="0cb9c8f4-26e5-4a6c-bbe9-1048a3ae186e" name="Obstacle" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="7e8fcbd9-2c55-4e75-8fb6-406c63a41d19" />
+        <suppliersInternal>
+          <interfaceRealization Id="ef23b28d-d8b8-456e-87fb-7506650b9162">
+            <interfaceMoniker Id="041252c4-e0e6-4136-b631-8ab1bebb6b0a" LastKnownName="Movable" />
+            <elementDefinition Id="3169f17d-c2b0-4942-88bc-27acb0d74734" />
+          </interfaceRealization>
+        </suppliersInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="1dccfefd-2167-4019-a077-0f73b5053427" name="Trigger" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="fe1d9720-8763-416e-9b02-5ed65cca4d58" />
+        <suppliersInternal>
+          <interfaceRealization Id="8e31bda4-0785-4a73-a506-0f1ccd2c407d">
+            <interfaceMoniker Id="56110f22-2b91-4f94-898e-b5ef4deba028" LastKnownName="Imovable" />
+            <elementDefinition Id="9067259e-e65a-44a7-819b-a43732b466e3" />
+          </interfaceRealization>
+        </suppliersInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="82a29f51-7c93-46fe-b3be-12bf5d9af36e" name="OxygenStation" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="fdf137a7-c9e0-4003-b2aa-1688f2fe82bb" />
+        <generalsInternal>
+          <generalization Id="385913df-457b-4186-b283-d5f705ff0bee" isSubstitutable="false">
+            <classMoniker Id="1dccfefd-2167-4019-a077-0f73b5053427" LastKnownName="Trigger" />
+            <elementDefinition Id="0977176f-0483-4225-a6b6-cbcd87f6ba38" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="bb7f11b7-0165-4f81-a2f5-6100aa07e566" name="Waypoint" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="a84b274c-c65b-4690-8772-8fa3b2c3cce5" />
+        <generalsInternal>
+          <generalization Id="44b2fd74-36b8-42ed-9f0e-ad24e3b21102" isSubstitutable="false">
+            <classMoniker Id="1dccfefd-2167-4019-a077-0f73b5053427" LastKnownName="Trigger" />
+            <elementDefinition Id="4d390d9b-6999-421d-9654-62b6569d1c71" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <Interface Id="b8c60a57-b390-4cf1-995c-1b71f13896f8" name="Controller" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="26a2b27e-d4bc-4eca-8540-fab7951c6a08" />
+        <targetEnds>
+          <association Id="185ba187-8dae-4732-a80f-3ca2b42a2104" isDerived="false" sourceEndRoleName="Controller" targetEndRoleName="Car" isLeaf="false" isAbstract="false">
+            <classMoniker Id="405fabca-0735-4b7b-aec7-b3405c6d013a" LastKnownName="Car" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9a0cd563-406c-447e-ad4f-d77b8449c4ac" name="Controller" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="1577a049-da4d-43cd-8657-bdefcd7c4758" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="14d707da-4b66-48cc-896a-eab05185b94f" name="Car" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <lowerValueInternal>
+                    <literalString Id="14218590-7bf2-4144-8429-5a9b166c6a02" name="Lower" value="1">
+                      <elementDefinition Id="b7226b6e-0983-48c1-9215-a531fd9ae83e" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="80397e55-5a7c-4007-ab95-b09020883913" name="Upper" value="1">
+                      <elementDefinition Id="5600c7b9-e849-4682-abb9-5e72c33a20e8" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="9592d31e-e55a-40c5-9bca-0db67000542a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="2f8f4151-a390-483c-a8f8-9d62f281de97" />
+          </association>
+        </targetEnds>
+      </Interface>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="d02ef4c2-d58b-4381-a0c3-fc21cc0e5fce" name="Human" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="1e9467b6-2c49-47b3-9e39-52a2ffe6f94d" />
+        <suppliersInternal>
+          <interfaceRealization Id="9a7acf53-b9b4-4684-a82b-164ed02c25a8">
+            <interfaceMoniker Id="b8c60a57-b390-4cf1-995c-1b71f13896f8" LastKnownName="Controller" />
+            <elementDefinition Id="ef8d916f-2e4c-470a-ab2f-c84d3f4be182" />
+          </interfaceRealization>
+        </suppliersInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="f76fb5f7-dbc6-46ed-9c98-ef977054b9fc" name="Ai" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="52dbb159-303c-42c5-af1a-ff5024aca6cc" />
+        <suppliersInternal>
+          <interfaceRealization Id="abd0b6bc-0ef5-4374-938c-2bfbf4a5035f">
+            <interfaceMoniker Id="b8c60a57-b390-4cf1-995c-1b71f13896f8" LastKnownName="Controller" />
+            <elementDefinition Id="23db9ef4-82e1-42b7-aed8-6d69c4b65f9b" />
+          </interfaceRealization>
+        </suppliersInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="a47acfe2-243c-4767-b489-effe188a12fe" name="Racer" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="b0629d9e-9f56-44d8-b308-ca434689c98e" />
+        <generalsInternal>
+          <generalization Id="abe70d6d-54ef-4e74-b543-912c37f82e5f" isSubstitutable="false">
+            <classMoniker Id="f76fb5f7-dbc6-46ed-9c98-ef977054b9fc" LastKnownName="Ai" />
+            <elementDefinition Id="77658af0-8b83-43e4-975e-45c1fc16700f" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="703151b5-39fe-43a8-95a3-4c015cd0783e" name="Traffic" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="0a4b1679-e707-4274-806c-88502b735f04" />
+        <generalsInternal>
+          <generalization Id="281d62e6-33b5-45d2-ae5d-1384e1e8d99a" isSubstitutable="false">
+            <classMoniker Id="f76fb5f7-dbc6-46ed-9c98-ef977054b9fc" LastKnownName="Ai" />
+            <elementDefinition Id="3469298a-22e9-419b-8dc9-37b54a079be9" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="45a9ddec-8639-483a-93fe-010e52eb51fa" name="Graf" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="5f86343b-a11a-4409-8ff3-62bc16b9ecd5" />
+        <targetEnds>
+          <association Id="a9f43f95-d36c-48de-bf31-8800dce269ff" isDerived="false" sourceEndRoleName="Graf" targetEndRoleName="CityTile" isLeaf="false" isAbstract="false">
+            <classMoniker Id="573c3a1d-1679-4c02-9d98-e4f2af312b8b" LastKnownName="CityTile" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a98219ca-dd5c-4810-b1a7-5dc33211e6bd" name="Graf" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="b7ecdd0b-8edc-44da-bed6-07e6562e4d74" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="79d20d35-196e-4413-a8dc-de4cd1eec913" name="CityTile" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="27b75075-219b-4a0b-9f59-fd547a4d9d61" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="c6802791-c232-46f9-acf4-f098d043f585" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="7c3a5c74-7117-41fd-8ec7-45db118ea594" name="Node" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="109543d2-ca59-4945-8579-0fc15ccfa0b8" />
+        <targetEnds>
+          <association Id="c15b8f62-3c7f-4f0a-a944-085c4f2887f2" isDerived="false" sourceEndRoleName="Node" targetEndRoleName="Node" isLeaf="false" isAbstract="false">
+            <classMoniker Id="7c3a5c74-7117-41fd-8ec7-45db118ea594" LastKnownName="Node" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="4fc09406-0a29-4d1a-ba15-542d1983110b" name="Node" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a92a9918-c225-460c-8e87-7066a57b707c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d0921d25-8cf1-4c57-adfd-31409221df6a" name="Node" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <lowerValueInternal>
+                    <literalString Id="61fe87f5-4e2a-414f-a818-c9df1fc48a67" name="Lower" value="n">
+                      <elementDefinition Id="41254a09-9303-4941-9ecb-2448169d3218" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="ae0085e2-754d-45e9-9b34-f742c455b2a6" name="Upper" value="n">
+                      <elementDefinition Id="9d3e20d4-1782-4df0-873f-b8778f757546" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="77f62c8d-95b7-4200-a8f8-31633b0d7149" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="3e47d143-080d-4846-a806-52da88e50b57" />
+          </association>
+          <association Id="64775a2d-b08d-4960-aef1-9e5539f30e76" isDerived="false" sourceEndRoleName="Node" targetEndRoleName="Graf" isLeaf="false" isAbstract="false">
+            <classMoniker Id="45a9ddec-8639-483a-93fe-010e52eb51fa" LastKnownName="Graf" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f7ce9c7e-1ae0-4449-ac8d-7db2777d6277" name="Node" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="b7854be6-5a5e-4822-a58e-45ec81d2fab1" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8ab8aa18-74b9-4c58-b860-ea1c4065fa4f" name="Graf" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="0aa4fff7-d2eb-4c76-9e3f-8eb16a77843a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="261d73b7-f4e9-4ad7-a083-82d22b6d5325" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="e857bbdf-7077-44b6-8dcb-24e57bf4a7d0" name="TrafficManager" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="f8db8da4-5547-4b6c-a91f-41dc2962ea65" />
+        <suppliersInternal>
+          <dependency Id="2c66ef0a-eb7b-4af6-8543-7720cdda48e4">
+            <classMoniker Id="703151b5-39fe-43a8-95a3-4c015cd0783e" LastKnownName="Traffic" />
+            <elementDefinition Id="291f312c-82fa-4e53-abf5-443d70984655" />
+          </dependency>
+        </suppliersInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="e81e8d9d-e5ce-4ed4-932f-b3da70364049" name="Menu" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="ce215a32-d54c-4217-89cd-91a563718536" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="6c85d1e6-b603-4011-b943-8d0e3e78716e" name="HUD" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="7c2f6f20-ac59-4d90-a191-c1c83ff3475d" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="1bba307a-3304-4d33-9fc7-9ebeef68ce18" name="ColisionManager" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="5710d052-c7af-4175-a6a2-aaf5473fd59a" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="5bdec93a-5e03-4eba-8e25-683eb05a9693" name="Models">
+    <elementDefinition Id="94cf7659-fd0d-48d9-9908-62bf617d8640" />
+  </package>
+</logicalClassDesignerModel>

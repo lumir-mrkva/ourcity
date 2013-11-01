@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010 Express for Windows Phone
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JigLibX (xna-4.0-phone7)", "JigLibX\JigLibX (xna-4.0-phone7).csproj", "{91010988-508C-429C-BCDD-91753B66D79E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|xna-4.0-phone7 = Debug|xna-4.0-phone7
+		Release|xna-4.0-phone7 = Release|xna-4.0-phone7
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91010988-508C-429C-BCDD-91753B66D79E}.Debug|xna-4.0-phone7.ActiveCfg = Debug|Windows Phone
+		{91010988-508C-429C-BCDD-91753B66D79E}.Debug|xna-4.0-phone7.Build.0 = Debug|Windows Phone
+		{91010988-508C-429C-BCDD-91753B66D79E}.Release|xna-4.0-phone7.ActiveCfg = Release|Windows Phone
+		{91010988-508C-429C-BCDD-91753B66D79E}.Release|xna-4.0-phone7.Build.0 = Release|Windows Phone
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

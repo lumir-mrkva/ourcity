@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map>
+    <poi identifier="1" x="-100.0" y="0.0" z="-1.0" start="1"/>
+    <poi identifier="2" x="-192.0" y="0.0" z="-1.0" start="0"/>
+    <poi identifier="3" x="-192.0" y="0.0" z="-109.0" start="0"/>
+    <poi identifier="4" x="-100.0" y="0.0" z="-109.0" start="0"/>
+    <poi identifier="5" x="-3.1349998" y="0.0" z="-230.94499" start="0"/>
+    <poi identifier="6" x="93.005" y="0.0" z="-228.855" start="0"/>
+    <poi identifier="7" x="90.91499" y="0.0" z="-482.78998" start="1"/>
+    <poi identifier="8" x="-4.18" y="0.0" z="-482.78998" start="0"/>
+    <poi identifier="9" x="-99.274994" y="0.0" z="125.399994" start="0"/>
+    <poi identifier="10" x="-12.539999" y="0.0" z="128.53499" start="1"/>
+    <poi identifier="11" x="-2.09" y="0.0" z="248.70999" start="1"/>
+    <poi identifier="12" x="-3.1349998" y="0.0" z="378.28998" start="0"/>
+    <poi identifier="13" x="-102.409996" y="0.0" z="377.245" start="0"/>
+    <poi identifier="14" x="-97.185" y="0.0" z="495.33" start="0"/>
+    <poi identifier="15" x="91.96" y="0.0" z="495.33" start="1"/>
+    <poi identifier="16" x="93.005" y="0.0" z="612.37" start="0"/>
+    <poi identifier="17" x="-102.409996" y="0.0" z="609.235" start="0"/>
+    <poi identifier="18" x="-99.274994" y="0.0" z="728.365" start="0"/>
+    <poi identifier="19" x="90.91499" y="0.0" z="730.45496" start="1"/>
+    <poi identifier="20" x="94.049995" y="0.0" z="848.54" start="1"/>
+    <poi identifier="21" x="96.14" y="0.0" z="981.25494" start="0"/>
+    <poi identifier="22" x="-104.49999" y="0.0" z="980.20996" start="0"/>
+    <poi identifier="23" x="-106.59" y="0.0" z="850.62994" start="0"/>
+    <poi identifier="24" x="-196.45999" y="0.0" z="379.335" start="1"/>
+    <poi identifier="25" x="-196.45999" y="0.0" z="495.33" start="1"/>
+    <poi identifier="26" x="-195.415" y="0.0" z="616.55" start="1"/>
+    <poi identifier="27" x="-196.45999" y="0.0" z="731.5" start="1"/>
+    <poi identifier="28" x="-196.45999" y="0.0" z="846.44995" start="0"/>
+    <poi identifier="29" x="-296.78" y="0.0" z="842.26996" start="0"/>
+    <poi identifier="30" x="-299.91498" y="0.0" z="733.58997" start="0"/>
+    <poi identifier="31" x="-299.91498" y="0.0" z="611.32495" start="0"/>
+    <poi identifier="32" x="-299.91498" y="0.0" z="495.33" start="0"/>
+    <poi identifier="33" x="-299.91498" y="0.0" z="384.56" start="0"/>
+    <poi identifier="34" x="308.275" y="0.0" z="377.245" start="1"/>
+    <poi identifier="35" x="311.40997" y="0.0" z="610.27997" start="0"/>
+    <poi identifier="36" x="217.35999" y="0.0" z="613.415" start="0"/>
+    <poi identifier="37" x="214.22499" y="0.0" z="378.28998" start="0"/>
+    <poi identifier="38" x="216.31499" y="0.0" z="-359.47998" start="0"/>
+    <poi identifier="39" x="308.275" y="0.0" z="-359.47998" start="1"/>
+    <poi identifier="40" x="312.455" y="0.0" z="-228.855" start="1"/>
+    <poi identifier="41" x="312.455" y="0.0" z="-107.634995" start="0"/>
+    <poi identifier="42" x="220.495" y="0.0" z="-107.634995" start="0"/>
+    <poi identifier="43" x="144.20999" y="0.0" z="-839.13495" start="1"/>
+    <poi identifier="44" x="147.345" y="0.0" z="-723.13995" start="1"/>
+    <poi identifier="45" x="149.435" y="0.0" z="-599.82996" start="0"/>
+    <poi identifier="46" x="-1.045" y="0.0" z="-601.92" start="0"/>
+    <poi identifier="47" x="-8.36" y="0.0" z="-844.36" start="0"/>
+    <poi identifier="48" x="-203.775" y="0.0" z="-867.35" start="1"/>
+    <poi identifier="49" x="-199.59499" y="0.0" z="-721.05" start="0"/>
+    <poi identifier="50" x="-302.00497" y="0.0" z="-720.00494" start="0"/>
+    <poi identifier="51" x="-299.91498" y="0.0" z="-863.17" start="0"/>
+    <poi identifier="52" x="304.095" y="0.0" z="-720.00494" start="1"/>
+    <poi identifier="53" x="309.31998" y="0.0" z="-605.055" start="0"/>
+    <poi identifier="54" x="226.76498" y="0.0" z="-606.1" start="0"/>
+    <poi identifier="55" x="223.62999" y="0.0" z="-715.82495" start="0"/>
+    <poi identifier="56" x="-99.274994" y="0.0" z="-357.38998" start="1"/>
+    <poi identifier="57" x="-96.14" y="0.0" z="-233.03499" start="0"/>
+    <poi identifier="58" x="-195.415" y="0.0" z="-228.855" start="0"/>
+    <poi identifier="59" x="-197.50499" y="0.0" z="-358.435" start="0"/>
+    <poi identifier="60" x="311.40997" y="0.0" z="730.45496" start="1"/>
+    <poi identifier="61" x="310.365" y="0.0" z="845.40497" start="0"/>
+    <poi identifier="62" x="215.26999" y="0.0" z="846.44995" start="0"/>
+    <poi identifier="63" x="215.26999" y="0.0" z="729.41" start="0"/>
+    <line from="1" to="2" />
+    <line from="3" to="4" />
+    <line from="2" to="3" />
+    <line from="4" to="1" />
+    <line from="7" to="6" />
+    <line from="6" to="5" />
+    <line from="5" to="8" />
+    <line from="8" to="7" />
+    <line from="10" to="11" />
+    <line from="11" to="12" />
+    <line from="12" to="13" />
+    <line from="13" to="9" />
+    <line from="9" to="10" />
+    <line from="15" to="16" />
+    <line from="16" to="17" />
+    <line from="17" to="14" />
+    <line from="14" to="15" />
+    <line from="19" to="20" />
+    <line from="20" to="21" />
+    <line from="21" to="22" />
+    <line from="22" to="23" />
+    <line from="20" to="23" />
+    <line from="23" to="18" />
+    <line from="18" to="19" />
+    <line from="24" to="25" />
+    <line from="25" to="26" />
+    <line from="26" to="27" />
+    <line from="27" to="28" />
+    <line from="28" to="29" />
+    <line from="29" to="30" />
+    <line from="30" to="31" />
+    <line from="31" to="32" />
+    <line from="32" to="33" />
+    <line from="33" to="24" />
+    <line from="25" to="32" />
+    <line from="26" to="31" />
+    <line from="27" to="30" />
+    <line from="34" to="35" />
+    <line from="35" to="36" />
+    <line from="36" to="37" />
+    <line from="37" to="34" />
+    <line from="39" to="40" />
+    <line from="40" to="41" />
+    <line from="41" to="42" />
+    <line from="42" to="38" />
+    <line from="39" to="38" />
+    <line from="47" to="43" />
+    <line from="43" to="44" />
+    <line from="44" to="45" />
+    <line from="45" to="46" />
+    <line from="46" to="47" />
+    <line from="48" to="49" />
+    <line from="49" to="50" />
+    <line from="50" to="51" />
+    <line from="51" to="48" />
+    <line from="52" to="53" />
+    <line from="53" to="54" />
+    <line from="54" to="55" />
+    <line from="55" to="52" />
+    <line from="59" to="56" />
+    <line from="56" to="57" />
+    <line from="57" to="58" />
+    <line from="58" to="59" />
+    <line from="60" to="61" />
+    <line from="61" to="62" />
+    <line from="62" to="63" />
+    <line from="63" to="60" />
+</map>

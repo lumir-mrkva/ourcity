@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map>
+    <poi identifier="1" x="-100.0" y="0" z="-1" start="1"/>
+    <poi identifier="2" x="-192.0" y="0" z="-1" start="0"/>
+    <poi identifier="3" x="-192.0" y="0" z="-109" start="0"/>
+    <poi identifier="4" x="-100.0" y="0" z="-109" start="0"/>
+    <line from="1" to="2" />
+    <line from="3" to="4" />
+    <line from="2" to="3" />
+    <line from="4" to="1" />
+</map>

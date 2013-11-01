@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="7e86e85d-9c3b-4074-9d85-442df295b2c1" name="states" linkedPackageId="0a2a5947-9df7-40b0-92e0-363498f9cd5c" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="5653a473-dc4f-479e-8f70-f46c25764770" name="StateManager" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="c597c038-9ac0-4394-be28-80392c70a0f2" />
+        <ownedAttributesInternal>
+          <property Id="54c758d5-8ddc-4680-b56c-08cda0a2d10b" name="stack" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="f32e9bf6-942c-4dee-9119-1f492497a73e" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <Interface Id="5a6ebccb-1819-4277-a4c1-11f649ba85d7" name="AbstractState" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="3f626194-5b41-468d-b533-aef2fc697b2c" />
+        <ownedOperations>
+          <operation Id="113b9fc7-6cc2-4537-871d-989e64ee99f6" name="Update" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="c4925f4d-0d40-4ffa-a697-4cc5b3b2a979" />
+          </operation>
+          <operation Id="940a0116-ad34-42a4-95cf-08d1c38913f7" name="Draw" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="777a01f7-b035-43f5-af36-b966824e3838" />
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="c73d2554-2dfc-4ae0-bce4-72ec96d7831e" name="MenuState" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="890b380d-0cd6-4381-ba15-e9aac8654232" />
+        <suppliersInternal>
+          <interfaceRealization Id="6d6da4a8-04f0-4994-b5e7-8e3e0f3495d1">
+            <interfaceMoniker Id="5a6ebccb-1819-4277-a4c1-11f649ba85d7" LastKnownName="AbstractState" />
+            <elementDefinition Id="b4bd0968-ca41-4220-a39c-351e69fc54ea" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation Id="306494b5-1160-4dc5-a2eb-14ac07ff1d06" name="Update" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="59dc0f14-1199-48d2-a2a8-be457a516ef9" />
+          </operation>
+          <operation Id="aaa71b53-f6b1-4d37-a2d6-492cdf025ca9" name="Draw" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="8bbcfdbb-effb-4491-b01e-2043b58f843f" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="fb4a4bfd-58c0-4875-9d86-2959c1d6e5f9" name="StoryState" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="0f89c74d-7697-430c-a304-7c841be6ae6b" />
+        <suppliersInternal>
+          <interfaceRealization Id="34d21209-4d8b-4ba4-9e5b-7ce53d671f35">
+            <interfaceMoniker Id="5a6ebccb-1819-4277-a4c1-11f649ba85d7" LastKnownName="AbstractState" />
+            <elementDefinition Id="99e0fbdb-0fd2-4fae-af02-f8d3d407cf2b" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation Id="633745bc-535c-4c6d-9b0a-a4b9d90c5fab" name="Update" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="fb626891-580b-4c68-a552-5e1f45f3a1b9" />
+          </operation>
+          <operation Id="f377ccef-11a2-4091-8af4-29f423619e52" name="Draw" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="280e5267-deff-4883-8e1b-8309ec4fd7d5" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="d4c28bd0-f7dd-4777-946e-1c7843922f35" name="GameState" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="cfcb35a4-20bd-4ce5-ad34-6438d2f6dd02" />
+        <suppliersInternal>
+          <interfaceRealization Id="68a1a82c-bcb3-4a22-a189-2eac87995568">
+            <interfaceMoniker Id="5a6ebccb-1819-4277-a4c1-11f649ba85d7" LastKnownName="AbstractState" />
+            <elementDefinition Id="234d44ca-de9d-4409-9a11-39a046abea76" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation Id="0d7bba2d-991f-4937-b86d-c6be02dd6895" name="Update" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="eabea509-2577-479e-bb95-fc4ab719c432" />
+          </operation>
+          <operation Id="624bce9a-af83-4aa2-af63-207fd80224e7" name="Draw" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="e437cb5f-16ce-43aa-a75f-09ccf55a7fee" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="57775a62-b0a5-444e-9664-6c53bf59780f" name="PlayerContext" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="b233bd34-4e1a-487a-900b-55ba12d9901a" />
+        <ownedAttributesInternal>
+          <property Id="0cd03ed2-7f47-4c11-8746-fb157ba3333c" name="progress" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="f2725878-63ad-43ba-b65d-4f49e3221f21" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="0a2a5947-9df7-40b0-92e0-363498f9cd5c" name="Models">
+    <elementDefinition Id="94cf7659-fd0d-48d9-9908-62bf617d8640" />
+    <profileInstances>
+      <packageHasProfileInstances Id="d5858cb5-bba2-431b-b2e8-b079365f7f16">
+        <profileInstance Id="4da04a4a-e400-4eaa-9491-748c1b77c14a" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="f75d1059-319f-4e9c-95d1-676c64198b7f">
+        <profileInstance Id="2cb2d683-dba6-4255-a9d2-ae21fbad0d83" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</logicalClassDesignerModel>

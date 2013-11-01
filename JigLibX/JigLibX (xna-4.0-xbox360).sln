@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C# Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JigLibX (xna-4.0-xbox360)", "JigLibX\JigLibX (xna-4.0-xbox360).csproj", "{137B098A-8380-4353-9655-4DB9AA7502C5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|xna-4.0-xbox360 = Debug|xna-4.0-xbox360
+		Release|xna-4.0-xbox360 = Release|xna-4.0-xbox360
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{137B098A-8380-4353-9655-4DB9AA7502C5}.Debug|xna-4.0-xbox360.ActiveCfg = Debug|Xbox 360
+		{137B098A-8380-4353-9655-4DB9AA7502C5}.Debug|xna-4.0-xbox360.Build.0 = Debug|Xbox 360
+		{137B098A-8380-4353-9655-4DB9AA7502C5}.Release|xna-4.0-xbox360.ActiveCfg = Release|Xbox 360
+		{137B098A-8380-4353-9655-4DB9AA7502C5}.Release|xna-4.0-xbox360.Build.0 = Release|Xbox 360
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
